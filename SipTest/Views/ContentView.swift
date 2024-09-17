@@ -64,12 +64,15 @@ struct ContentView: View {
                 model.login()
                 model.makeCall()  // Start the call when pressed
             }) {
-                Text("Start Call")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(Color.green)
-                    .cornerRadius(8)
+//                Text("Start Call")
+//                    .font(.headline)
+//                    .foregroundColor(.white)
+//                    .padding()
+//                    .background(Color.green)
+//                    .cornerRadius(8)
+                Image(systemName: "phone.fill")
+                    .resizable()
+                    .frame(width: 50, height: 50)
             }
             
             // End Call button (always visible)

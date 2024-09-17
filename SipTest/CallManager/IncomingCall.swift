@@ -19,7 +19,7 @@ class IncomingCall: ObservableObject {
     var mCoreDelegate: CoreDelegate!
     
     
-    // hard code values
+
     @Published var username: String = ""
     @Published var passwd: String = ""
     @Published var domain: String = "" // Linphone's free SIP service domain
