@@ -5,7 +5,6 @@
 //  Created by Bilal Mehdi on 04/09/2024.
 //
 
-// View Model
 
 import Foundation
 import linphonesw
