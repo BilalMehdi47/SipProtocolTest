@@ -5,6 +5,7 @@
 //  Created by Bilal Mehdi on 04/09/2024.
 //
 
+// View Model
 
 import Foundation
 import linphonesw
@@ -18,7 +19,6 @@ class OutgoingCall: ObservableObject {
     @Published var loggedIn: Bool = false
     @Published var isCallRunning: Bool = false
     
-
     
 //     Hardcoded test credential
     @Published var username: String = ""
