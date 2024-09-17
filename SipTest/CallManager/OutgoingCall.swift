@@ -19,7 +19,7 @@ class OutgoingCall: ObservableObject {
     @Published var isCallRunning: Bool = false
     
     
-//     Hardcoded test credential
+//     Hardcoded test emails
     @Published var username: String = ""
     @Published var password: String = ""
     @Published var domain: String = "" // Linphone's free SIP service domain
